@@ -34,6 +34,8 @@ SELECT
    LEN(first_name) AS LENGTH_NAME
 FROM students;
 
+-- 3) STRING EXTRACTION : --
+
 -- LEFT : EXTRACT SPECIFIC NUMBER OF CHARACTERS FROM THE START --
 
 SELECT
@@ -52,4 +54,5 @@ FROM students;
 SELECT 
    first_name,
    SUBSTRING(first_name,2,4) AS sub_name
+
 FROM students;
